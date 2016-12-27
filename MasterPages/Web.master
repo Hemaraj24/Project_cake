@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Web.master.cs" Inherits="MasterPages_Web" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Fernsnpetals</title>
+            <link rel="icon" href="../images/unnamed.png" type="image/png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/site.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" class="form-horizontal" runat="server">
+        <div class="container">
+            <div id="divHeader">
+                <div class="site-name">
+                    <tr style="background-color: palevioletred; color: white; font-size: 500%; text-align: center">
+                    <td align="left";>
+                        <img src="../images/logo.jpg" /><p style="color:aqua">
+                         Fernsnpetals
+                            </p>
+                     </td>
+                     </tr>
+                   
+                </div>
+            </div>
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="../Pages/Home.aspx">Home</a>
+                    </div>
+
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="../Pages/CakesByFlavor.aspx">Cakes By Flavor</a></li>
+                            <li><a href="../Pages/CakesByTheme.aspx">Cakes By Theme</a></li>
+                            <li><a href="../Pages/Bouquets.aspx">Bouquets</a></li>
+                            <li><a href="../Pages/OrderSummary.aspx">Order Summary</a></li>
+                            <li><a href="../Pages/PaymentHistory.aspx">Payment History</a></li>
+                            <li><a href="../Pages/contact.aspx">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <div class="panel-body">
+                <asp:ContentPlaceHolder ID="cphMain" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <br />
+            <div class="panel-footer" style="background-color:grey; color:white; text-align:center;">
+                <asp:Label ID="lblCopyRight" runat="server" />
+            </div>
+        </div>
+        <script src="../Scripts/jquery-1.9.1.js"></script>
+        <script src="../Scripts/bootstrap.js"></script>
+    </form>
+</body>
+</html>

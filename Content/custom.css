@@ -1,0 +1,42 @@
+﻿.messageText {
+    color: white;
+    font-style: oblique;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding: 15px 0px 15px 0px;
+    margin: 0px;
+}
+
+.summaryTable {
+    color: white;
+    font-style: oblique;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+    .summaryTable th {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .summaryTable td {
+        padding: 5px;
+        text-align: center;
+    }
+
+.custom-highlight {
+    border-style: none;
+    background: url(../images/31.jpg);
+    background-repeat: round;
+    background-size: cover;
+}
+
+.custom-border {
+    border-style:none;
+}
+
+.custom-color {
+    color: white;
+    /*color: black;*/
+}

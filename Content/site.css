@@ -1,0 +1,53 @@
+#divHeader
+{
+  
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color:palevioletred;
+    text-align: left;
+    height: 120px;
+}
+
+#divUserInfo
+{
+    text-align: right;
+    vertical-align:top;
+    color:white;
+    padding-right: 20px;
+}
+
+.site-name
+{
+    width: 660px;
+    height: 90px;
+    top: 10px;
+    position: absolute;
+    z-index: 4;
+    overflow: hidden;
+    margin: 0px;
+    padding-left: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.site-name p.title
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "trebuchet ms" , arial, sans serif;
+    font-weight: bold;
+    font-size: 150%;
+    color: white;
+}
+
+.site-name p.subtitle
+{
+    clear: both;
+    width: 260px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    font-family: "trebuchet ms" , arial, sans serif;
+    font-size: 57%;
+    color: white;
+}
